@@ -1,7 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Something On A Bus This Summer</title>
+    <title>We're going on an adventure...</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏞️</text></svg>">
+    
+    <meta name="title" content="We're going on an adventure..." />
+    <meta name="description" content="Meeting fellow makers is incredible feeling. This summer, we're bringing together makers in 50+ cities — all from the back of our converted minibus." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="We're going on an adventure..." />
+    <meta property="og:description" content="Meeting fellow makers is incredible feeling. This summer, we're bringing together makers in 50+ cities — all from the back of our converted minibus." />
+    <meta property="og:image" content="https://cloud-hv46l59yd-hack-club-bot.vercel.app/0meta.png" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="We're going on an adventure..." />
+    <meta property="twitter:description" content="Meeting fellow makers is incredible feeling. This summer, we're bringing together makers in 50+ cities — all from the back of our converted minibus." />
+    <meta property="twitter:image" content="https://cloud-hv46l59yd-hack-club-bot.vercel.app/0meta.png" />
+    
     <!--Mischief Bus Adventure, Misguided enterprises-->
   </head>
   <body>
@@ -12,7 +31,7 @@
       If you're in a city like San Francisco or New York, that's easy, but the hacker spirit is everywhere.
     </p>
     <p>
-      This summer, we're hitting the the road. In our converted minibus, we'll visit 50 cities in approximately 90 days.
+      This summer, we're hitting the the road. In our DIY converted minibus, we'll visit 50 cities in approximately 90 days.
     </p>
     <p>
       <img src="https://cloud-qa9m38816-hack-club-bot.vercel.app/0outernet-92.jpeg" height="200px" />
@@ -22,7 +41,7 @@
       At each city we'll run a pop-up hackathon, unconference, or demo session. We'll get together in a park or a similar public space. There'll be free food, good vibes, and awesome people.
     </p>
     <p>
-      For now, we're working things out so expect more details. If you'd be interested in helping out, drop us an email at <a href="mailto:email@email.com">email@email.com</a>. And, if you've got the ability to support financially, we're raising money at <a href="https://hcb.hackclub.com/slug">hcb.hackclub.com/slug</a>.
+      For now, we're working things out so expect more details. If you'd be interested in helping out, drop us an email at <a href="mailto:inbox@summer24.xyz">inbox@summer24.xyz</a>. And, if you've got the ability to support financially, we're raising money at <a href="https://hcb.hackclub.com/summer24">hcb.hackclub.com/summer24</a> (our financials are also open-source!).
     </p>
     <p>
       See you on the road,
@@ -30,6 +49,9 @@
     <p class="signatures">
       <a href="https://github.com/sampoder" target="_blank">
         <img src="https://epoch.hackclub.com/signatures/sampoder.png" height="80px" />
+      </a>
+    <a href="https://github.com/karmanyaahm" target="_blank">
+        <img src="https://cloud-fg46wan9k-hack-club-bot.vercel.app/02023-09-27_00-25.jpg" height="80px" />
       </a>
     </p>
     <p>
@@ -61,4 +83,18 @@
       gap: 24px;
     }
   </style>
+  
+  <script>
+    const onFocus = () => {
+      document.title = "...see you on the road."
+    }
+    const onBlur = () => {
+      document.title = "We're going on an adventure..."
+    }
+    
+    window.addEventListener('focus', onFocus)
+    window.addEventListener('blur', onBlur)
+    // Calls onFocus when the window first loads
+    onFocus()
+  </script>
 </html>

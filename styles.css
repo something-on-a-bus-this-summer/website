@@ -39,3 +39,16 @@ ul {
 li {
   margin-bottom: 8px;
 }
+
+.dark-theme {
+  background-color: #000000;
+  color: #e0e0e0;
+}
+
+.dark-theme a {
+  color: #bb86fc;
+}
+
+.dark-theme .signatures img {
+  filter: drop-shadow(0 0 20px rgba(173, 216, 230, 0.8));
+}

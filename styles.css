@@ -19,3 +19,23 @@ body {
   flex-wrap: wrap;
   gap: 24px;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+ul {
+  padding-inline-start: 20px;
+  margin-block-start: 0.4em;
+  margin-block-end: calc(0.4em - 8px);
+}
+
+li {
+  margin-bottom: 8px;
+}

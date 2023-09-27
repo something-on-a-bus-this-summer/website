@@ -1,0 +1,21 @@
+body {
+  max-width: 800px;
+  padding: 16px;
+  margin: auto;
+}
+.mb-hide {
+  display: none;
+}
+@media (min-width: 800px) {
+  body {
+    margin-top: 48px;
+  }
+  .mb-hide {
+    display: inline-block;
+  }
+}
+.signatures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}

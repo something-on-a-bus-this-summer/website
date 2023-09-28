@@ -1,0 +1,10 @@
+{
+  "public": true,
+  "github": { "silent": true },
+  "rewrites": [
+    {
+      "source": "/prospectus",
+      "destination": "/prospectus.html"
+    }
+  ]
+}

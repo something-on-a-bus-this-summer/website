@@ -39,3 +39,24 @@ ul {
 li {
   margin-bottom: 8px;
 }
+
+.dark-theme {
+  background-color: #000000;
+  color: #e0e0e0;
+}
+
+.dark-theme a {
+  color: #bb86fc;
+}
+
+.dark-theme .signatures img {
+  filter: invert(1);
+}
+
+.name-suggestion {
+  color: #3c4858;
+}
+
+.dark-theme .name-suggestion {
+  color: white;
+}
